@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.15.3",
-    "express-http-proxy": "^1.0.3",
+    "command-line-args": "^4.0.6",
+    "http-proxy": "^1.16.2",
     "sia.js": "^0.4.1"
   },
   "devDependencies": {},
