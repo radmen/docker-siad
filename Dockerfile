@@ -1,6 +1,6 @@
-FROM golang:1.8
+FROM golang:1.12
 
-RUN go get -u -v github.com/NebulousLabs/Sia/...
+RUN go get -u -v gitlab.com/NebulousLabs/Sia/...
 
 FROM node:8.1-slim
 
